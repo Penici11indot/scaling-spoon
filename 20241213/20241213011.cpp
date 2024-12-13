@@ -22,5 +22,5 @@ int main() {
   int year, month, day;
   cin >> year >> month >> day;
   int result = dayOfYear(year, month, day);
-  cout << year << "年" << month << "月" << day << "日是" << year << "的第" << result << "天" <<endl;
+  cout << result << endl;
 }
